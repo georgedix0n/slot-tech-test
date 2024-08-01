@@ -4,41 +4,41 @@
  * @class
  */
 export class Base {
-    /**
+	/**
      * 
      */
-    constructor() {
+	constructor() {
         
-    }    
+	}    
 
-    /**
+	/**
      * set the x parameter on the natiove pixi object
      * @member
      */
-    get x() {
-        return this._native.x;
-    }
-    set x(x) {
-        this._native.x = x;
-    }
+	get x() {
+		return this._native.x;
+	}
+	set x(x) {
+		this._native.x = x;
+	}
     
-    /**
+	/**
      * set the y parameter on the natiove pixi object
      * @member
      */
-    get y() {
-        return this._native.y;
-    }
-    set y(y) {
-        this._native.y = y;
-    }
+	get y() {
+		return this._native.y;
+	}
+	set y(y) {
+		this._native.y = y;
+	}
 
-    /**
+	/**
      * get the base pixi object
      * @member
      * @readonly
      */
-    get native() {
-        return this._native;
-    }
+	get native() {
+		return this._native;
+	}
 }
