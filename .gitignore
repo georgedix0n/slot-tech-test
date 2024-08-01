@@ -7,3 +7,6 @@ node_modules/
 Thumbs.db
 
 tmp/
+
+bundle.js
+bundle.js.map
