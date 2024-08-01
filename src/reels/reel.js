@@ -132,4 +132,15 @@ export class Reel extends Base {
 			}
 		}
 	}
+
+	/**
+     * Returns active symbol Ids to be used for gameplay
+     *
+     * @async
+     */
+	async getActiveSymbolIds() {
+		const activeSymbols = this._symbols.slice(1, -1); // slice to remove the symbols that were added to hide creation and removal of symbols (first and last)
+		return activeSymbols.map(symbol => symbol.id);
+	}
+
 }

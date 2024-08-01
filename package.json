@@ -8,7 +8,7 @@
         "build": "rollup -c",
         "doc": "jsdoc -c jsdoc.config.json",
         "lint": "eslint src/**/*.js",
-        "lint-fix": "eslint src/**/*.js"
+        "lint-fix": "eslint src/**/*.js --fix"
     },
     "source": true,
     "browserslist": [
